@@ -1,0 +1,21 @@
+name: my_icon
+description: The font for my application
+homepage: http://www.a-lightyear.com/
+version: 1.0.0
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  recase: "^2.0.0+1"
+
+flutter:
+  fonts:
+    - family: MyIcon
+      fonts:
+        - asset: iconfont.ttf
+          weight: 400
